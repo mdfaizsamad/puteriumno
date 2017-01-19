@@ -1,0 +1,7 @@
+<?php 
+return [
+	['id'=>'4','course_off_course_id'=>'1','course_lecturer_id'=>'56de7b72-6d40-4683-a82d-2f682c07c751','section_no'=>'','capacity'=>'20','creator_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','created'=>'2016-03-08 15:15:54','modifier_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','modified'=>'2016-03-08 15:15:54'],
+	['id'=>'5','course_off_course_id'=>'1','course_lecturer_id'=>'56de7b97-1c48-4e23-9d8d-2f682c07c751','section_no'=>'','capacity'=>'20','creator_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','created'=>'2016-03-08 15:15:54','modifier_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','modified'=>'2016-03-08 15:15:54'],
+	['id'=>'16','course_off_course_id'=>'11','course_lecturer_id'=>'56de7b4c-74b0-4f6c-973c-2f682c07c751','section_no'=>'S1','capacity'=>'20','creator_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','created'=>'2016-03-11 17:18:17','modifier_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','modified'=>'2016-03-11 17:18:17'],
+	['id'=>'17','course_off_course_id'=>'11','course_lecturer_id'=>'56de7b72-6d40-4683-a82d-2f682c07c751','section_no'=>'D1','capacity'=>'21','creator_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','created'=>'2016-03-11 17:18:17','modifier_id'=>'56581d61-3a30-480d-a37e-e51fc0a80a8e','modified'=>'2016-03-11 17:18:17'],
+];

@@ -1,0 +1,13 @@
+.hani_admission,.hani_program,.hani_contact_management,.hani_contact_management2,.hani_finance,.hani_finance2,.hani_users.hani_communication,.hani_communication{
+  background: url("sprites.png") no-repeat;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.small-box {min-width: 118px; min-height:152px;padding: 10px;}
+.hani_admission{top:0px;left:0px;width:103px;height:95px;background-position: -0px -83px;}
+.hani_communication{top:0px;left:3px;width:96px;height:95px;background-position: -97px -178px;}
+.hani_contact_management{top:12px;left:15px;width:73px;height:70px;background-position: -178px -0px;}
+.hani_contact_management2{top:0px;left:3px;width:97px;height:95px;background-position: -0px -178px;}
+.hani_finance{top:0px;left:4px;width:95px;height:95px;background-position: -103px -83px;}
+.hani_program{top:5px;left:0px;width:104px;height:83px;background-position: -0px -0px;margin-top: 10px;margin-bottom: 10px;}
+.hani_user_management{top:13px;left:13px;width:74px;height:68px;background-position: -104px -0px;}

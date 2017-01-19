@@ -1,0 +1,260 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    top:32px;
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/*#wrapper.toggled {
+    padding-left: 200px;
+}*/
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgb(44,62,80);
+
+}
+
+.sidebar-brand{
+    min-width: 64px;
+    min-height: 64px;
+    background:url('../img/logo.png') no-repeat;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: 200px;
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #content {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 2px;/*new*/
+
+}
+
+.sidebar-nav li {
+    /*text-indent: 15px;/*15px*/
+    line-height: 20px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    /*color: #999999;*/
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    /*background: rgba(255,255,255,0.2);*/
+    background-color: #394C61;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    /*    border-style: solid;*/
+    border-color:transparent;
+    border-bottom: #F09532 1px solid;
+    /*border-left: red 2px solid;//new*/
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+.sidebar-nav {
+    border-color: #2e2e2e;
+}
+.sidebar-nav li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    background-color: #2C3E50;
+}
+.sidebar-nav li > a {
+    line-height: 48px;
+    padding-left: 16px;
+    font-size: 1.15rem;
+}
+
+.sidebar-nav li a {
+    line-height: 48px;
+    /*padding-left: 16px;*/
+    font-size: 1.15rem;
+}
+
+.sidebar-nav li ul li {
+    line-height: 32px;
+    padding-left: 0px;
+    font-size: 1rem;
+    background-color: #253240;
+}
+.sidebar-nav li ul li a {
+    line-height: 32px;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    .fixed-brand{
+        width: 200px;
+    }
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+
+    #wrapper.toggled-2 #sidebar-wrapper {
+        width: 50px;
+    }
+
+    #wrapper.toggled-2 #sidebar-wrapper:hover {
+        width: 200px;
+    }
+
+    #sidebar-wrapper {
+        width: 200px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #content {
+        padding-top: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #wrapper.toggled #content {
+        position: relative;
+        margin-right: 10px;
+        padding-left: 30px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+
+    /*    #wrapper.toggled-2 #content {
+            position: relative;
+            margin-right: 0;
+            margin-left: -200px;
+             -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }*/
+
+    .navbar-fixed-top{
+        /*left: 200px;*/
+        /*top:-30px;*/
+    }
+    .navbar-brand{
+        width:205px;
+    }
+
+    .navbar-nav > li.notifications .dropdown-menu {
+        width: 280px;
+    }
+}
+
+.widget {
+    background: #fff;
+    margin: 0 auto 10px;
+    position: relative;
+    border: 1px solid #efefef;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #efefef!important;
+}
+.bg-gray {
+    background: #f9f9f9!important;
+}
+.innerAll {
+    padding: 10px;
+    position: relative;
+}
+.widget .widget-body {
+    padding: 10px;
+}
+.table-bordered {
+    border-color: #efefef;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.table-condensed {
+    font-size: 10pt;
+}
+.table {
+    margin: 0 0 10px;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.widget .widget-head {
+    background: #f7f7f7;
+    border-bottom: 1px solid #efefef;
+    height: 55px;
+    line-height: 35px;
+    position: relative;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+}
+.inner-2x.innerAll {
+    padding: 20px!important;
+}
+/*.innerAll {
+    padding: 10px;
+    position: relative;
+}*/
+.heading{
+  padding-left: 15px;
+}

@@ -1,0 +1,5 @@
+<?php 
+return [
+	['id'=>'1','name'=>'UNITAR International University','additional_name'=>'UNITAR International University Main Campus','acronym'=>'MC','phone_no'=>'+60376277200','fax'=>'','province_id'=>'2248','province_name'=>'Selangor','country_id'=>'0','country_name'=>'Malaysia','academic_group_id'=>'','address1'=>'3-01A Tkt 3 Tierra Crest','address2'=>'Jalan SS6/3 Kelana Jaya','address3'=>'','town'=>'Petaling Jaya','postcode'=>'43000','is_main_campus'=>'','active'=>'1','code_ldap'=>'','created'=>'2015-12-30 17:16:01','creator_id'=>'','modified'=>'1458178219','modifier_id'=>''],
+	['id'=>'2','name'=>'Pusat Wilayah UNITAR International University Pulau Pinang','additional_name'=>'Sentral Technology College ','acronym'=>'PG','phone_no'=>'+6042621888','fax'=>'','province_id'=>'2257','province_name'=>'Pulau Pinang','country_id'=>'0','country_name'=>'Malaysia','academic_group_id'=>'','address1'=>'Menara Sentral','address2'=>'No. 3, Lebuh Penang,','address3'=>'','town'=>'Pulau Pinang','postcode'=>'10200','is_main_campus'=>'','active'=>'1','code_ldap'=>'','created'=>'2016-01-04 15:39:35','creator_id'=>'','modified'=>'1451893175','modifier_id'=>''],
+];

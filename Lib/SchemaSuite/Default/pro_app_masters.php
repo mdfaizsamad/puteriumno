@@ -1,0 +1,4 @@
+<?php 
+return [
+	['id'=>'56e78bbb-90a4-412b-92f8-09342c07c751','owned_id'=>'','race_id'=>'1','nationality_id'=>'MY','religion_id'=>'1','first_name'=>'FALIQ','last_name'=>'FADLULLAH','ic_ppt_no'=>'880513065191','is_malaysian'=>'1','dob'=>'1988-05-13 00:00:00','gender'=>'Male','phone'=>'0172471768','email'=>'faliqfadlullah@gmail.com','password'=>'a2a70bd0dc96b7fab1159573df49d13909bd9599d11466f51172046ccf198383','registration_step'=>'','channel'=>'','is_open_entry'=>'','tnc'=>'1','privacy_policies'=>'1','marital_status'=>'1','need_fin_assistance'=>'','self_sponsored_detail'=>'','ext_id_no'=>'','is_alumni'=>'','is_confirm'=>'','is_active'=>'','disability_type_id'=>'','disability_details'=>'','assigned_id'=>'','created'=>'2016-03-15 12:12:43','creator_id'=>'','modified'=>'2016-03-22 16:44:05','tnc_pre'=>'','privacy_policies_pre'=>'','last_seen'=>'','is_oku'=>'','oku_no'=>''],
+];

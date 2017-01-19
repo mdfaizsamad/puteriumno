@@ -1,0 +1,34 @@
+{
+    "name": "webandcow/bs_helpers",
+    "type": "cakephp-plugin",
+    "description": "Extension of the CakePHP's FormHelper and HtmlHelper to use the framework Twitter Bootstrap v3.0.0 more easily",
+    "keywords": [
+        "cakephp",
+        "bootstrap",
+        "twitter"
+    ],
+    "homepage": "https://github.com/WebAndCow/CakePHP-BsHelpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebAndCow",
+            "email": "bonjour@webandcow.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/WebAndCow/CakePHP-BsHelpers/issues",
+        "source": "https://github.com/WebAndCow/CakePHP-BsHelpers"
+    },
+    "require": {
+        "php": ">=5.3",
+        "composer/installers": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.38",
+        "cakephp/cakephp-codesniffer": "1.*"
+    },
+    "suggest": {
+        "twbs/bootstrap": "Bootstrap framework",
+        "jasny/bootstrap": "The missing bootstrap components"
+    }
+}

@@ -1,0 +1,72 @@
+<?php
+
+App::uses("SchemaSuite", "SchemaSuite");
+
+class AppSchema extends CakeSchema {
+<<<<<<< HEAD
+	public $only = array();
+	public function __construct(array $options = array() ){
+		foreach(SchemaSuite::getSchemas() as $schema){
+			$sch = str_replace('.php','',basename($schema));
+			if (empty($this->only)||in_array($sch,$this->only)){
+				$o = basename($schema, ".php");
+				$this->$o = SchemaSuite::fields($o);
+			}
+		}
+		parent::__construct($options);
+	}
+	public function before($event = array()) {
+		return true;
+	}
+	protected $_toCreate = [];
+	public function after($event = array()) {
+		if (isset($event['create'])) {
+			if (SchemaSuite::existDefault($event['create'])) $this->_toCreate[] = $event['create'];
+		}
+ 	}
+
+	public function __destruct(){
+			echo PHP_EOL.'Dumping default data(s).'.PHP_EOL;
+			foreach($this->_toCreate as $create) {
+				echo $create.".".PHP_EOL;
+				SchemaSuite::createDefault($create);
+			}
+  }
+=======
+
+    public $only = array();
+
+    public function __construct(array $options = array()) {
+        foreach (SchemaSuite::getSchemas() as $schema) {
+            $sch = str_replace('.php', '', basename($schema));
+            if (empty($this->only) || in_array($sch, $this->only)) {
+                $o = basename($schema, ".php");
+                $this->$o = SchemaSuite::fields($o);
+            }
+        }
+        parent::__construct($options);
+    }
+
+    public function before($event = array()) {
+        return true;
+    }
+
+    protected $_toCreate = [];
+
+    public function after($event = array()) {
+        if (isset($event['create'])) {
+            if (SchemaSuite::existDefault($event['create']))
+                $this->_toCreate[] = $event['create'];
+        }
+    }
+
+    public function __destruct() {
+        echo PHP_EOL . 'Dumping default data(s).' . PHP_EOL;
+        foreach ($this->_toCreate as $create) {
+            echo $create . "." . PHP_EOL;
+            SchemaSuite::createDefault($create);
+        }
+    }
+
+>>>>>>> 7465e912e06ed1cb5bacc6446d8af829f554c9d4
+}

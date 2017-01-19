@@ -1,0 +1,21 @@
+<?php 
+return [
+	['id'=>'10','education_level_id'=>'1','program_level_id'=>'1'],
+	['id'=>'17','education_level_id'=>'1','program_level_id'=>'2'],
+	['id'=>'21','education_level_id'=>'1','program_level_id'=>'4'],
+	['id'=>'28','education_level_id'=>'1','program_level_id'=>'5'],
+	['id'=>'16','education_level_id'=>'2','program_level_id'=>'2'],
+	['id'=>'22','education_level_id'=>'2','program_level_id'=>'4'],
+	['id'=>'27','education_level_id'=>'2','program_level_id'=>'5'],
+	['id'=>'15','education_level_id'=>'3','program_level_id'=>'2'],
+	['id'=>'20','education_level_id'=>'3','program_level_id'=>'4'],
+	['id'=>'26','education_level_id'=>'3','program_level_id'=>'5'],
+	['id'=>'7','education_level_id'=>'4','program_level_id'=>'1'],
+	['id'=>'14','education_level_id'=>'4','program_level_id'=>'2'],
+	['id'=>'19','education_level_id'=>'4','program_level_id'=>'4'],
+	['id'=>'25','education_level_id'=>'4','program_level_id'=>'5'],
+	['id'=>'18','education_level_id'=>'5','program_level_id'=>'2'],
+	['id'=>'23','education_level_id'=>'5','program_level_id'=>'4'],
+	['id'=>'24','education_level_id'=>'5','program_level_id'=>'5'],
+	['id'=>'8','education_level_id'=>'7','program_level_id'=>'1'],
+];
